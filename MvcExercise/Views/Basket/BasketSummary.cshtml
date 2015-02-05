@@ -1,5 +1,5 @@
 ﻿@Html.ActionLink(
-    "Basket (0)", @* TODO Return basket item count *@
+    "Basket (" + ViewData["BasketCount"] + ")",
     "Index",
     "Basket",
     new { id = "basket-status" })

@@ -28,6 +28,9 @@ namespace MvcExercise.Controllers
         [ChildActionOnly]
         public ActionResult BasketSummary()
         {
+            var basket = GetBasket();
+
+            ViewData["BasketCount"] = basket.BasketContents.Count();
             return PartialView("BasketSummary");
         }
 
