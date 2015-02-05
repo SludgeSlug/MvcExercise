@@ -1,3 +1,19 @@
-﻿@{
+﻿@model MvcExercise.Models.Basket
+
+@{
     ViewBag.Title = "Basket";    
 }
+
+<h2>@Model.BasketContents.Count() items in basket: </h2>
+<ul id="album-list">
+    @foreach (var album in Model.BasketContents)
+    {
+        <li>
+            <span>@album.AlbumId</span>
+            <span>@album.Artist</span>
+            <span>@album.Title</span>
+            <span>@album.Year</span>            
+        </li>
+    }
+</ul>
+@Html.ActionLink("Search again", "Index", "Home")
