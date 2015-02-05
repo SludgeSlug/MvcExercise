@@ -1,0 +1,25 @@
+﻿@model MvcExercise.Models.CdSearch
+
+@{
+    ViewBag.Title = "Search Results";    
+}
+
+<h2>Search Results for '@Model.SearchTerm'</h2>
+<ul id="album-list">
+    @foreach (var album in Model.Results)
+    {
+        <li>
+            <span>@album.Artist</span>
+            <span>@album.Title</span>
+            <span>@album.Year</span>
+            <span>
+                @Html.ActionLink("Add to basket", 
+                                    "AddToBasket", 
+                                    "Basket", 
+                                    new { id = album.AlbumId }, 
+                                    string.Empty)
+
+            </span>
+        </li>
+    }
+</ul>

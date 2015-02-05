@@ -1,0 +1,15 @@
+﻿@model MvcExercise.Models.CdSearch
+
+@{
+    ViewBag.Title = "Index";    
+}
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(m => m.SearchTerm)
+    @Html.TextBoxFor(m => m.SearchTerm)
+    <p>
+        <input type="submit" value="Search" />
+    </p>
+}
+
