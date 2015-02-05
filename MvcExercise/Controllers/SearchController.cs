@@ -30,21 +30,21 @@ namespace MvcExercise.Controllers
                 {
                     new CdSearchResult
                     {
-                        AlbumId = 1,
+                        AlbumId = Guid.NewGuid(),
                         Artist = "Black Sabbath",
                         Title = "Master of Reality",
                         Year = 1971
                     },
                     new CdSearchResult
                     {
-                        AlbumId = 2,
+                        AlbumId = Guid.NewGuid(),
                         Artist = "Saint Vitus",
                         Title = "Born Too Late",
                         Year = 1986
                     },
                     new CdSearchResult
                     {
-                        AlbumId = 3,
+                        AlbumId = Guid.NewGuid(),
                         Artist = "Slayer",
                         Title = "Seasons in the Abyss",
                         Year = 1990

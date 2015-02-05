@@ -16,10 +16,10 @@ namespace MvcExercise.Controllers
             return View();
         }
 
-        public ActionResult AddToBasket(int id)
+        public ActionResult AddToBasket(CdSearchResult album)
         {
             var basket = GetBasket();
-            basket.AddAlbumId(id);
+            basket.AddAlbum(album);
             SaveBasketInSession(basket);
             // Go back to the main store page for more searches
             return RedirectToAction("Index");

@@ -7,16 +7,16 @@ namespace MvcExercise.Models
 {
     public class Basket
     {
-        public IList<int> BasketContents { get; set; }
+        public IList<CdSearchResult> BasketContents { get; set; }
 
         public Basket()
         {
-            BasketContents = new List<int>();
+            BasketContents = new List<CdSearchResult>();
         }
 
-        public void AddAlbumId(int id)
+        public void AddAlbum(CdSearchResult album)
         {
-            BasketContents.Add(id);
+            BasketContents.Add(album);
         }
     }
 }

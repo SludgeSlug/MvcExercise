@@ -7,7 +7,7 @@ namespace MvcExercise.Models
 {
     public class CdSearchResult
     {
-        public int AlbumId { get; set; }
+        public Guid AlbumId { get; set; }
         public string Artist { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
