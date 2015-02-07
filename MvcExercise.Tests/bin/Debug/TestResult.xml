@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.Tests.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-07" time="19:22:26">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="PHIL" user="phili_000" user-domain="PHIL" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.Tests.dll" executed="True" result="Success" success="True" time="0.105" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MvcExercise" executed="True" result="Success" success="True" time="0.089" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.089" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Models" executed="True" result="Success" success="True" time="0.088" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="BasketTests" executed="True" result="Success" success="True" time="0.088" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="Total" executed="True" result="Success" success="True" time="0.085" asserts="0">
+                        <results>
+                          <test-case name="MvcExercise.Tests.Models.BasketTests.Total.should_calculate_total_as_zero_when_nothing_is_in_the_basket" executed="True" result="Success" success="True" time="0.068" asserts="1" />
+                          <test-case name="MvcExercise.Tests.Models.BasketTests.Total.should_calculate_total_price_from_basket_contents" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

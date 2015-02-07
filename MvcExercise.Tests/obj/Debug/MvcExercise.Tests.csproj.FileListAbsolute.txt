@@ -1,0 +1,11 @@
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.Tests.dll
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.Tests.pdb
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.dll
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\nunit.framework.dll
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\MvcExercise.pdb
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\nunit.framework.xml
+C:\Dev\git\MvcExercise\MvcExercise.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Dev\git\MvcExercise\MvcExercise.Tests\obj\Debug\MvcExercise.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\git\MvcExercise\MvcExercise.Tests\obj\Debug\MvcExercise.Tests.dll
+C:\Dev\git\MvcExercise\MvcExercise.Tests\obj\Debug\MvcExercise.Tests.pdb

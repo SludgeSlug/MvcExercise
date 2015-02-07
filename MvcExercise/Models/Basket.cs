@@ -14,6 +14,14 @@ namespace MvcExercise.Models
             BasketContents = new List<CdSearchResult>();
         }
 
+        public double Total
+        {
+            get
+            {
+                return BasketContents.Select(b => b.Price).Sum();
+            }
+        }
+
         public void AddAlbum(CdSearchResult album)
         {
             BasketContents.Add(album);
