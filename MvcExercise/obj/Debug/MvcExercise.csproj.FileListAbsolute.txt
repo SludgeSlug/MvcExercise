@@ -35,6 +35,5 @@ C:\Dev\git\MvcExercise\MvcExercise\bin\System.Web.Razor.xml
 C:\Dev\git\MvcExercise\MvcExercise\bin\System.Web.WebPages.xml
 C:\Dev\git\MvcExercise\MvcExercise\bin\System.Web.WebPages.Deployment.xml
 C:\Dev\git\MvcExercise\MvcExercise\bin\System.Web.WebPages.Razor.xml
-C:\Dev\git\MvcExercise\MvcExercise\obj\Debug\MvcExercise.csprojResolveAssemblyReference.cache
 C:\Dev\git\MvcExercise\MvcExercise\obj\Debug\MvcExercise.dll
 C:\Dev\git\MvcExercise\MvcExercise\obj\Debug\MvcExercise.pdb

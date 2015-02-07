@@ -26,5 +26,10 @@ namespace MvcExercise.Models
         {
             BasketContents.Add(album);
         }
+
+        public void RemoveItem(CdSearchResult item)
+        {
+            BasketContents.Remove(item);
+        }
     }
 }
