@@ -12,8 +12,10 @@
             <span>@album.AlbumId</span>
             <span>@album.Artist</span>
             <span>@album.Title</span>
-            <span>@album.Year</span>            
+            <span>@album.Year</span>
+            <span>@album.Price</span>            
         </li>
     }
+    Total: @Model.Total
 </ul>
 @Html.ActionLink("Search again", "Index", "Home")

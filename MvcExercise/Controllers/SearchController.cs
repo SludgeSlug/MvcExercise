@@ -33,21 +33,24 @@ namespace MvcExercise.Controllers
                         AlbumId = Guid.NewGuid(),
                         Artist = "Black Sabbath",
                         Title = "Master of Reality",
-                        Year = 1971
+                        Year = 1971,
+                        Price = 10.99
                     },
                     new CdSearchResult
                     {
                         AlbumId = Guid.NewGuid(),
                         Artist = "Saint Vitus",
                         Title = "Born Too Late",
-                        Year = 1986
+                        Year = 1986,
+                        Price = 9.90
                     },
                     new CdSearchResult
                     {
                         AlbumId = Guid.NewGuid(),
                         Artist = "Slayer",
                         Title = "Seasons in the Abyss",
-                        Year = 1990
+                        Year = 1990,
+                        Price = 8.50
                     }
                 };
         }
