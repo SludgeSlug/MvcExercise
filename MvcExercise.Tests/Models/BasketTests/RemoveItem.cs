@@ -16,11 +16,13 @@ namespace MvcExercise.Tests.Models.BasketTests
         {
             var item1 = new CdSearchResult
             {
+                AlbumId = Guid.NewGuid(),
                 Title = "Album 1"
             };
 
             var item2 = new CdSearchResult
             {
+                AlbumId = Guid.NewGuid(),
                 Title = "Album 2"
             };
 
@@ -29,7 +31,13 @@ namespace MvcExercise.Tests.Models.BasketTests
                 BasketContents = new List<CdSearchResult> { item1, item2 }
             };
 
-            basket.RemoveItem(item1);
+            var itemToRemove = new CdSearchResult
+            {
+                AlbumId = item1.AlbumId,
+                Title = item1.Title
+            };
+
+            basket.RemoveItem(itemToRemove);
 
             Assert.That(basket.BasketContents.Count(), Is.EqualTo(1));
             Assert.That(basket.BasketContents[0], Is.EqualTo(item2));

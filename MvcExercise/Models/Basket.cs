@@ -28,8 +28,8 @@ namespace MvcExercise.Models
         }
 
         public void RemoveItem(CdSearchResult item)
-        {
-            BasketContents.Remove(item);
+        {            
+            BasketContents = BasketContents.Where(b => b.AlbumId != item.AlbumId).ToList();
         }
     }
 }
