@@ -21,9 +21,18 @@ namespace MvcExercise.Controllers
             var basket = GetBasket();
             basket.AddAlbum(album);
             SaveBasketInSession(basket);
-            // Go back to the main store page for more searches
+            
             return RedirectToAction("Index");
-        }        
+        }
+
+        public ActionResult RemoveFromBasket(CdSearchResult album)
+        {
+            var basket = GetBasket();
+            basket.RemoveItem(album);
+            SaveBasketInSession(basket);
+
+            return RedirectToAction("Index");
+        }
 
         [ChildActionOnly]
         public ActionResult BasketSummary()

@@ -13,7 +13,14 @@
             <span>@album.Artist</span>
             <span>@album.Title</span>
             <span>@album.Year</span>
-            <span>@album.Price</span>            
+            <span>@album.Price</span>
+            <span>
+                @Html.ActionLink("Remove from basket", 
+                                    "RemoveFromBasket", 
+                                    "Basket", 
+                                    album,
+                                    string.Empty)
+            </span>   
         </li>
     }
     Total: @Model.Total
